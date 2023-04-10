@@ -1,0 +1,573 @@
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url(/fonts/brandon/Brandon_bld.otf);
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url(/fonts/brandon/Brandon_bld_it.otf);
+  font-style: italic;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url(/fonts/brandon/Brandon_blk.otf);
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url(/fonts/brandon/Brandon_blk_it.otf);
+  font-style: italic;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url(/fonts/brandon/Brandon_light.otf);
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url(/fonts/brandon/Brandon_light_it.otf);
+  font-style: italic;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url(/fonts/brandon/Brandon_med.otf);
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url(/fonts/brandon/Brandon_med_it.otf);
+  font-style: italic;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url(/fonts/brandon/Brandon_reg.otf);
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url(/fonts/brandon/Brandon_reg_it.otf);
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url(/fonts/brandon/Brandon_thin.otf);
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url(/fonts/brandon/Brandon_thin_it.otf);
+  font-style: italic;
+  font-weight: 200;
+}
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, div {
+  font-family: "Brandon Grotesque";
+  font-weight: 300;
+}
+
+.btn-secondary a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: inherit;
+}
+
+li a {
+  font-family: "Brandon Grotesque";
+}
+
+ol, ul {
+  padding: 0;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 450;
+  font-size: 66px;
+  line-height: 110%;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 450;
+  font-size: 59px;
+  line-height: 120%;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 450;
+  font-size: 40px;
+  line-height: 120%;
+}
+
+h6 {
+  font-style: normal;
+  font-weight: 450;
+  font-size: 28px;
+  line-height: 120%;
+}
+
+.fw-200 {
+  font-weight: 200 !important;
+}
+
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+.section-heading {
+  font-size: 28px;
+  color: #282828;
+  text-align: center;
+  letter-spacing: 2.8px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.part-title {
+  font-size: 20px;
+  color: #282828;
+  text-align: start;
+  letter-spacing: 2.8px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+section {
+  padding: 25px 0;
+}
+
+.promo-bar {
+  background-color: #282828;
+  height: 50px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 3.6px;
+}
+
+.logo-text {
+  text-align: center;
+  margin-top: 37px;
+}
+.logo-text.big a {
+  text-decoration: none;
+  font-size: 59px;
+  letter-spacing: 0.2em;
+  color: inherit;
+}
+.logo-text.small a {
+  text-decoration: none;
+  font-size: 28px;
+  letter-spacing: 0.2em;
+  color: inherit;
+}
+
+ul.nav li {
+  width: 120px;
+}
+ul.nav li:not(:last-child) {
+  margin-right: 22px;
+}
+ul.nav li a {
+  text-align: center;
+  color: #282828;
+  letter-spacing: normal;
+  line-height: 31px;
+  font-size: 16px;
+  font-weight: 300;
+}
+ul.nav li a:hover {
+  color: #d2461c;
+  transition: all 0.5s ease;
+}
+ul.nav li.active a {
+  color: #d2461c;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after,
+.swiper-button-next:after {
+  color: #282828;
+  font-size: 30px;
+}
+
+.swiper-button-next.swiper-banner-next {
+  margin-right: 100px;
+}
+
+.swiper-button-prev.swiper-banner-prev {
+  margin-left: 100px;
+}
+
+.swiper-button-next.swiper-arrival-next {
+  right: 0;
+}
+
+.swiper-button-prev.swiper-arrival-prev {
+  margin-left: 0;
+}
+
+.swiper-pagination-bullet-active {
+  background: #9a9a9a !important;
+  opacity: unset;
+}
+
+.swiper-pagination-bullet {
+  background: #000000;
+  opacity: unset;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 9px);
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+
+.promo-1, .promo-2 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  animation-name: fade;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.promo-1 {
+  animation-delay: 0s;
+}
+
+.promo-2 {
+  animation-delay: 5s;
+}
+
+@keyframes fade {
+  /* By offsetting the fade out and animating z-index, we can prevent the background from showing up at all*/
+  00.00% {
+    opacity: 0;
+  }
+  31.25% {
+    opacity: 1;
+  }
+  37.50% {
+    opacity: 1;
+  }
+  100.0% {
+    opacity: 0;
+  }
+}
+.slide-group {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.slide-group h3 {
+  margin-bottom: 29px;
+  letter-spacing: 4px;
+  font-weight: 300;
+}
+
+.btn-secondary {
+  border: 1px solid #000000;
+  padding: 15px 24px;
+  text-align: center;
+  transition: all 0.4s ease;
+}
+.btn-secondary a {
+  font-size: 16px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+.btn-secondary:hover {
+  background-color: #282828;
+  transition: all 0.4s ease;
+}
+.btn-secondary:hover a {
+  color: #ffffff;
+}
+
+.btn-primary {
+  padding: 15px 44px;
+  text-align: center;
+  background-color: #282828;
+  width: max-content;
+  margin: auto;
+  transition: all 0.4s ease;
+}
+.btn-primary a {
+  font-size: 16px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 22.4px;
+}
+.btn-primary:hover {
+  background-color: #d2461c;
+  transition: all 0.4s ease;
+}
+.btn-primary:hover a {
+  color: #ffffff;
+}
+
+.btn-orange {
+  padding: 15px 44px;
+  text-align: center;
+  background-color: #D2461C;
+  width: max-content;
+  margin: auto;
+  transition: all 0.4s ease;
+}
+.btn-orange a {
+  font-size: 16px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 22.4px;
+}
+.btn-orange:hover {
+  background-color: #d2461c;
+  transition: all 0.4s ease;
+}
+.btn-orange:hover a {
+  color: #ffffff;
+}
+
+.banner-img img {
+  width: 100%;
+}
+
+.arrival-section {
+  padding-top: 62px;
+  padding-bottom: 12px;
+}
+.arrival-section h5 {
+  font-size: 28px;
+  color: #282828;
+  text-align: center;
+  letter-spacing: 2.8px;
+  font-weight: 400;
+}
+
+.product-img img {
+  width: 100%;
+}
+
+.arrival-product-card {
+  display: block;
+  justify-content: center;
+}
+.arrival-product-card .product-title {
+  font-size: 16px;
+  color: #494949;
+  line-height: 22.4px;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+.arrival-product-card .product-price {
+  text-align: center;
+  line-height: 22.4px;
+  margin-bottom: 12px;
+}
+
+.arrival-swiper {
+  margin-bottom: 70px;
+}
+
+footer {
+  border-top: 1px solid #000000;
+  padding-bottom: 80px;
+}
+footer .footer-list {
+  margin-top: 46px;
+}
+footer .footer-list li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 200;
+  text-align: center;
+  line-height: 24px;
+  margin: 2px 0;
+}
+footer .footer-list li a {
+  text-decoration: none;
+  color: #494949;
+}
+footer .social-list {
+  margin-top: 46px;
+  display: flex;
+  justify-content: center;
+}
+footer .social-list li {
+  list-style: none;
+  margin-right: 33px;
+}
+footer .social-list li:last-child {
+  margin-right: 0;
+}
+footer .social-list li img {
+  width: 20px;
+}
+footer .mail-text {
+  font-size: 22px;
+  margin-top: 54px;
+  text-align: center;
+  font-weight: 200;
+}
+
+input {
+  border: 1px solid #000000;
+  padding: 15px 24px;
+  text-align: start;
+  width: 100%;
+}
+
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.page-nav .breadcrump {
+  display: flex;
+}
+.page-nav .breadcrump li {
+  list-style: none;
+  margin-right: 1px;
+  color: #494949;
+  font-weight: 200;
+  font-size: 16px;
+}
+.page-nav .breadcrump li::after {
+  content: "/";
+  margin: 0 2px;
+}
+.page-nav .breadcrump li:last-child {
+  color: #ADB5BD;
+}
+.page-nav .breadcrump li:last-child::after {
+  content: none;
+}
+.page-nav .page-nav-btn a {
+  text-decoration: none;
+  margin-right: 1px;
+  color: #494949;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.product-info-image {
+  margin-bottom: 16px;
+}
+.product-info-image img {
+  width: 100%;
+  border: 0.5px solid #F8F9FA;
+}
+
+.product-gallery img {
+  width: 10%;
+  margin-right: 8px;
+  border: 0.5px solid #F8F9FA;
+}
+.product-gallery img.active {
+  border: 1.5px solid #ADB5BD;
+}
+
+.product-desc {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 200;
+}
+
+.btn-group {
+  width: 100%;
+  display: block;
+}
+
+.related-swiper .related-product-card {
+  border: 1px solid black;
+  padding: 16px;
+  text-align: center;
+}
+
+.cart-img img {
+  width: auto;
+  max-width: 150px;
+  border: 1.5px solid #ADB5BD;
+}
+
+.btn-textred a {
+  text-decoration: none;
+  color: #FF4040;
+}
+
+.btn-textblack a {
+  text-decoration: none;
+  color: #282828;
+}
+
+.summary-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.summary-flex > * {
+  width: 50%;
+  min-height: 50px;
+}
+
+.construction {
+  height: 50vh;
+  width: 100%;
+  text-align: center;
+}
+.construction h1 {
+  font-weight: 900;
+}
+
+.btn-cart a {
+  color: #000000;
+  text-decoration: none;
+}
+.btn-cart span {
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=main.css.map */
