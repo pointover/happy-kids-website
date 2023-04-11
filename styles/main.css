@@ -219,6 +219,13 @@ ul.nav li.active a {
   margin-left: 100px;
 }
 
+@media (max-width: 768px) {
+  .swiper-button-next.swiper-banner-next,
+  .swiper-button-prev.swiper-banner-prev {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
 .swiper-button-next.swiper-arrival-next {
   right: 0;
 }
@@ -365,6 +372,9 @@ ul.nav li.active a {
   color: #ffffff;
 }
 
+.banner-img {
+  max-height: 500px;
+}
 .banner-img img {
   width: 100%;
 }
@@ -568,6 +578,26 @@ input {
   height: 20px;
   background-color: #000000;
   color: #ffffff;
+}
+
+select.select-size {
+  width: 100%;
+  padding: 15px 24px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #282828;
+  background-color: #F8F9FA;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: var(--bs-accordion-btn-icon);
+  transform: var(--bs-accordion-btn-icon-transform);
+}
+
+.accordion-header {
+  line-height: normal;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -232,9 +232,17 @@ ul.nav {
     .swiper-button-next.swiper-banner-next {
         margin-right: 100px;
     }
-
+    
     .swiper-button-prev.swiper-banner-prev {
         margin-left: 100px;
+    }
+    @media (max-width: 768px) {
+        .swiper-button-next.swiper-banner-next,
+        .swiper-button-prev.swiper-banner-prev
+         {
+            margin-right: 0;
+            margin-left: 0;
+        }
     }
 
     .swiper-button-next.swiper-arrival-next {
@@ -383,6 +391,8 @@ ul.nav {
 }
 
 .banner-img {
+    max-height: 500px;
+
     img {
         width: 100%;
     }
@@ -631,4 +641,28 @@ input {
         background-color: #000000;
         color: #ffffff;
     }
+}
+
+select {
+
+    &.select-size {
+        width: 100%;
+        padding: 15px 24px;
+    }
+
+}
+
+.accordion-button:not(.collapsed) {
+    color: #282828;
+    background-color: #F8F9FA;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: var(--bs-accordion-btn-icon);
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+
+.accordion-header {
+    line-height: normal;
 }
